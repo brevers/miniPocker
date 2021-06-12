@@ -32,7 +32,6 @@ public class Pokerito {
             }
         }
         
-
         System.out.println("You matched "+yourMatches+" in total");
         System.out.println("Machine matched "+computerMatches+" in total\n");
         if(yourMatches>computerMatches){
@@ -45,7 +44,7 @@ public class Pokerito {
          scan.close();
     }
     public static String randomCard(){
-        double randomCard =Math.random()*13;
+        double randomCard = Math.random() * 13;
         randomCard +=1;
         switch ((int)randomCard) {
             case 1: return 
